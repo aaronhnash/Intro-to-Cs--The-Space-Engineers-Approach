@@ -1,0 +1,23 @@
+Ideas for ship:
+
+gravity railgun
+- turn all generators on, and then turn off the ones that the object passes
+- S is Sensor, G is Gravity Generator. When an object passes a sensor, turn off that set of gravoty generators.
+
+================================================================================================
+================================================================================================
+S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===
+S=====S=====S=====S=====S=====S=====S=====S=====S=====S=====S=====S=====S=====S=====S=====S=====
+S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===S=G===
+================================================================================================
+================================================================================================
+
+- Or, I could try to calculate the time needed to turn off each node based on velocity... but that might be too complex.
+
+Way to implement that timer:
+
+store global "stage" variable. It waits 60 ticks (~1 sec) to activate the next stage. 
+The loop checks what the stage variable is, and then activates whatever the next stage is.
+
+But that might not work out... When the script runs, it enters the runtime loop. It increments the global count, which then triggers the stage.
+How often does a while loop run in Space Engineers? Is it once per tick?
