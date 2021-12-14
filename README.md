@@ -1,30 +1,29 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Since I had run into some problems with my earlier Unity project (since I didn't know C#), I decided I'd try my hand at learning it! 
 
-{Provide a description the software that you wrote to demonstrate the C++ language.}
+This project is mostly a stepping stone, a proof of concept meant to help me learn the syntax of C#. There's so much more I'd like to do now that I have a good starting grasp on the langage! I mostly wanted to learn C# so that i could write in-game scripts for a game I've been playing, [Space Engineers](https://www.spaceengineersgame.com/). But before I can learn how to run (or rather, fly), I must first learn to walk. 
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[My COokie Clicker Walkthrough](https://youtu.be/WXSWZEoqSHg)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+This software was developed in Visual Studio Code, using the Code Runner extension and the scriptcs package.
 
-{Describe the programming language that you used and any libraries.}
+I used C# for this project, using only default libraries specified in my code.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Foreach loops](https://www.csharp-examples.net/foreach/)
+* [For loop syntax](https://www.tutorialspoint.com/csharp/csharp_for_loop.htm)
+* [Threading Processes](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.run?view=net-6.0#System_Threading_Tasks_Task_Run_System_Action_)
+* [Getting C# Setup in VSC](https://travis.media/how-to-run-csharp-in-vscode/#20210929-run)
+
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+There's a lot that I could do for this project, both expanding on this little game that I made as well as finishing my initial plan of writing a script to help me control my space ship in Space Engineers.
+* Balance the game a little bit more, ie. provide a cap on how many of each kind of collector I can make
+* Add error and exception handling
+* Develop a small script in Space Engineers to efficiently control thrusters

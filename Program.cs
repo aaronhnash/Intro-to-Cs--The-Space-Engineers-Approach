@@ -156,21 +156,21 @@ namespace intro_to_cs
                         this.curr_count -= enhanced_cost;
                         collectors_2.Add(new Collector("enhanced"));
                     }
-                    else {Console.WriteLine("Insufficient funds, need {0} to purchase enhanced collector.", basic_cost);}
+                    else {Console.WriteLine("Insufficient funds, need {0} to purchase enhanced collector.", enhanced_cost);}
                     break;
                 case "advanced":
                     if (this.curr_count >= advanced_cost){
                         this.curr_count -= advanced_cost;
                         collectors_3.Add(new Collector("advanced"));
                     }
-                    else {Console.WriteLine("Insufficient funds, need {0} to purchase advanced collector.", basic_cost);}
+                    else {Console.WriteLine("Insufficient funds, need {0} to purchase advanced collector.", advanced_cost);}
                     break;
                 case "perfected":
                     if (this.curr_count >= perfected_cost){
                         this.curr_count -= perfected_cost;
                         collectors_4.Add(new Collector("perfected"));
                     }
-                    else {Console.WriteLine("Insufficient funds, need {0} to purchase perfected collector.", basic_cost);}
+                    else {Console.WriteLine("Insufficient funds, need {0} to purchase perfected collector.", perfected_cost);}
                     break;
             }
         }
